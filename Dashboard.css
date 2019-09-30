@@ -1,0 +1,165 @@
+@-moz-document domain("dashboard.hostek.com") {
+.ant-popover-inner {
+    background-image: url('https://i.gifer.com/Z5U.gif') !important;
+    background-size: contain;
+}
+
+
+.ant-popover-title div {
+    color: #000 !important;
+    text-shadow: -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff !important;
+}
+
+.ant-form-item div {
+    /*This impacts the sales tracker*/
+    text-shadow: -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff !important;
+}
+.ant-popover-title {
+    /*This changes the title on Sales Tracker*/
+    text-shadow: -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+#phones-tech-queue-title {
+    color: #000 !important;
+    text-shadow: -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+#phones-csr-queue-title {
+    color: #000 !important;
+    text-shadow: -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff !important;
+}
+#phones-button-calltaken {}
+
+#phones-button-toggleidle:hover {
+    background-color: #b55509 !important;
+    visibility: visible;
+}
+#phones-button-toggleidle {
+    color: #000 !important;
+    border-color: #000 !important;
+    background-color: #1890ff !important;
+}
+
+.anticon.anticon-coffee {
+    /*visibility:hidden;*/
+}
+
+#phones-blocked-customers-wrapper {
+    background-color: #fff;
+}
+
+/*This is the main background of the dashboard*/
+main.isomorphicContent.ant-layout-content {
+
+    padding: 70px 0px 0px;
+    flex-shrink: 0;
+    background-image: url('https://i.gifer.com/YDNK.gif') !important;
+
+}
+/*This is the scheduler backgroud*/
+.ant-modal-content {
+
+    position: relative;
+    background-image: url('https://media.giphy.com/media/10GVNnqO2ZoAh2/giphy.gif');
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    pointer-events: auto;
+}
+/*This is the scheduler header banner */
+.ant-modal-header {
+
+    padding: 16px 24px;
+    color: rgba(0,0,0,.65);
+    background-color: #042f48;
+    border-bottom: 1px solid #e8e8e8;
+    border-radius: 4px 4px 0 0;
+
+}
+
+/*Support Reminder Header Text Color*/
+.ant-modal-title {
+
+    color: rgba(255, 255, 255, .85);
+}
+
+/*Support Reminder Text Color*/
+
+.ant-form-item-label>label {
+    color: rgba(0, 0, 0, .85);
+}
+
+/*Drop Shadow Manipulation*/
+
+.ant-form-item div {
+    color: #000 !important;
+    text-shadow: -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff !important;
+
+}
+
+.ant-input {
+
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    -webkit-font-feature-settings: "tnum";
+    font-feature-settings: "tnum";
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 32px;
+    padding: 4px 11px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    line-height: 32px;
+    background-color: #042f48;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+/*
+=================================== Remove Sections ===================================
+*/
+.ant-popover-inner div {
+    border-bottom: 0px solid #e8e8e8 !important;
+    /*disables top border line from appearing*/
+}
+#phones-blocked-customers-wrapper {
+    border-top: 0px solid rgb(255, 255, 255) !important;
+    /*disables bottom border line from appearing*/
+}
+
+.ant-spin-spinning {
+    position: static;
+    display: inline-block;
+    opacity: 0;
+}
+
+
+}
