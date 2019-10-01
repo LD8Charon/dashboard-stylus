@@ -1,4 +1,3 @@
-@-moz-document domain("dashboard.hostek.com") {
 .ant-popover-inner {
     background-image: url('https://i.gifer.com/Z5U.gif') !important;
     background-size: contain;
@@ -6,40 +5,30 @@
 
 
 .ant-popover-title div {
-    color: #000 !important;
-    text-shadow: -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff !important;
+    color: #fff !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004) !important;
+    line-height: 4
 }
 
 .ant-form-item div {
     /*This impacts the sales tracker*/
-    text-shadow: -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff !important;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004) !important;
 }
 .ant-popover-title {
     /*This changes the title on Sales Tracker*/
-    text-shadow: -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
 }
 #phones-tech-queue-title {
-    color: #000 !important;
-    text-shadow: -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff;
+    color: #fff !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+    line-height: 2
 }
 #phones-csr-queue-title {
-    color: #000 !important;
-    text-shadow: -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff !important;
+    color: #fff !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004)!important;
+    line-height: 2;
 }
 #phones-button-calltaken {}
 
@@ -101,20 +90,17 @@ main.isomorphicContent.ant-layout-content {
 /*Support Reminder Text Color*/
 
 .ant-form-item-label>label {
-    color: rgba(0, 0, 0, .85);
+    color: rgba(255, 255, 255, .85);
 }
 
-/*Drop Shadow Manipulation*/
+/*Drop Shadow Manipulation*/ /*Removed Drop Shadows 09/30/2019*/
 
 .ant-form-item div {
-    color: #000 !important;
-    text-shadow: -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff !important;
+    color: #fff !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.004)!important;
 
 }
-
+/*Scheduler Text box background and text color*/
 .ant-input {
 
     -webkit-box-sizing: border-box;
@@ -124,16 +110,12 @@ main.isomorphicContent.ant-layout-content {
     font-variant: tabular-nums;
     line-height: 1.5;
     list-style: none;
-    -webkit-font-feature-settings: "tnum";
-    font-feature-settings: "tnum";
     position: relative;
     display: inline-block;
     width: 100%;
     height: 32px;
-    padding: 4px 11px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 14px;
-    line-height: 32px;
     background-color: #042f48;
     background-image: none;
     border: 1px solid #d9d9d9;
@@ -141,6 +123,48 @@ main.isomorphicContent.ant-layout-content {
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+}
+
+.has-error .ant-input {
+
+    background-color: #042f48;
+    border-color: #f5222d;
+}
+
+.ant-select-auto-complete.ant-select .ant-input {
+
+
+    height: 32px;
+    line-height: 1.5;
+    background: #042f48;
+    border-width: 1px;
+}
+
+/*Scheduler To Address Box Background and Border*/
+.ant-select-selection {
+
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #042f48;
+    border: 1px solid #d9d9d9;
+    border-top-width: 1.02px;
+    border-radius: 4px;
+    outline: none;
+    -webkit-transition: all .3s cubic-bezier(.645,.045,.355,1);
+    -o-transition: all .3s cubic-bezier(.645,.045,.355,1);
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+/*Background Color when input Error*/
+.has-error .ant-input, .has-error .ant-input:hover {
+    background-color: #042f48;
+    border-color: #f5222d;
+
 }
 
 /*
@@ -161,5 +185,16 @@ main.isomorphicContent.ant-layout-content {
     opacity: 0;
 }
 
+/* .ant-select-auto-complete.ant-select .ant-input {
+
+    height: 32px;
+    line-height: 1.5;
+    background: #042f48;
+    border-width: 1px;
 
 }
+
+ .ant-calendar-inpu {
+
+
+} */
